@@ -1,0 +1,102 @@
+:root {
+  --primary: #ffaa00;
+  --bg: #fff;
+}
+
+* {
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+body {
+  color: #fff;
+  background-color: #fff;
+  background-image: url('../image/background.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  border-bottom: 1, 7px solid #fcfcfc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+
+.navbar .navbar-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.navbar .navbar-logo:hover {
+  transform: scale(1.2);
+}
+
+.navbar .navbar-nav a {
+  display: inline-block;
+  margin: 0 1rem;
+  color: #ffffff;
+  font-size: 2.3rem;
+  margin-left: 2rem;
+}
+
+.navbar .navbar-nav a:hover {
+  color: var(--primary);
+}
+
+.home {
+  text-align: center;
+  margin-top: 30rem;
+}
+
+.home h1 {
+  color: #fafafa;
+  font-size: 5rem;
+}
+
+.home p {
+  color: #ffffff;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.home .web-btn {
+  background-color: blue;
+  width: 300px;
+  height: 3rem;
+  border-radius: 20px;
+  margin-left: 75rem;
+  margin-top: 3rem;
+}
+
+.home .web-btn a {
+  color: #010100;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 2rem;
+}
+
+.home .web-btn:hover {
+  transform: scale(1.2);
+}
+
+.home .web-btn a:hover {
+  color: var(--bg);
+  transform: scale(1.2);
+}
+

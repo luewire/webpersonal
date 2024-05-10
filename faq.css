@@ -1,0 +1,101 @@
+:root {
+    --primary: #ffaa00;
+    --bg: #fff;
+  }
+  
+  * {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    color: #fff;
+    background-color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: #fff;
+    border-bottom: 1, 7px solid #010100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+  }
+  
+  .navbar .navbar-logo {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .navbar .navbar-logo:hover {
+    transform: scale(1.2);
+  }
+  
+  .navbar .navbar-nav a {
+    display: inline-block;
+    margin: 0 1rem;
+    color: #010100;
+    font-size: 2.3rem;
+    margin-left: 2rem;
+  }
+  
+  .navbar .navbar-nav a:hover {
+    color: var(--primary);
+  }
+    .faq {
+    margin-top: 10rem;
+    margin-left: 20rem;
+  }
+  
+  .faq h1 {
+    color: #010100;
+    font-size: 4rem;
+  }
+  
+  .faq p {
+    color: #010100;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+  
+  .faq .container-faq {
+    margin-top: 3rem;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #010100;
+    margin-right: 15rem;
+  }
+  
+  .faq .container-faq:hover {
+    transform: scale(1.1);
+  }
+  
+  .faq .container-faq h1 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: var(--primary);
+    font-size: 2rem;
+  }
+  
+  .faq .container-faq p {
+    color: #010100;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  
